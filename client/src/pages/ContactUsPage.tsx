@@ -8,7 +8,7 @@ export default function ContactUsPage() {
     <Layout>
       <section id="contact" className="smst-section bg-orange-50">
         <div className="container mx-auto px-4">
-          <h2 className="smst-section-title">{t('contact_title')}</h2>
+          <h2 className="smst-section-title bg-arrow">{t('contact_title')}</h2>
           <p className="smst-section-subtitle">{t('contact_subtitle')}</p>
 
           <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">

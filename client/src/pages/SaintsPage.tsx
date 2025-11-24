@@ -102,9 +102,9 @@ export default function SaintsPage() {
       {/* Saints & Living Section */}
       <section id="saints" className="smst-section bg-orange-50">
         <div className="container mx-auto px-4">
-          <h2 className="smst-section-title">{t('saints_title')}</h2>
+          <h2 className="smst-section-title bg-arrow">{t('saints_title')}</h2>
           <p className="smst-section-subtitle italic">
-            {t('saints_subtitle_quote')}
+            {t('saints_subtitle_quote')}12345
           </p>
 
           <p className="text-center text-gray-700 mb-12 max-w-3xl mx-auto">

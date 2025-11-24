@@ -514,3 +514,32 @@ background-color: #333;
 .audioplayer-btn input{
   display: none;
 }
+
+.bg-arrow{
+background-image: url(/src/assets/images/arrow1.png);
+    background-repeat: no-repeat;
+    background-size: 53%;
+    background-position: bottom;
+    padding-bottom: 58px;
+    margin-bottom: 10px;
+}
+.common-right,.common-left{
+  
+    background-repeat: round;
+    background-size: 46%;
+    /* padding-bottom: 0px; */
+    margin-bottom: -17px;
+}
+/* .common-left{
+    background-image: url(/src/assets/images/light-left.png);
+    background-position: right;
+}
+.common-right{
+    background-image: url(/src/assets/images/light-right.png);
+    background-position: left;
+} */
+
+ .glow-hover:hover {
+    box-shadow: 0 0 15px rgba(255, 200, 0, 0.9), 0 0 25px rgba(255, 200, 0, 0.7);
+    border-color: #facc15; /* Tailwind yellow-400 */
+  }

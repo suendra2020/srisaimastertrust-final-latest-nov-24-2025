@@ -11,13 +11,13 @@ export default function AboutUsPage() {
   return (
     <Layout>
       {/* Welcome Section (About Us) */}
-      <section id="about" className="smst-section bg-orange-50">
+      <section id="about" className="smst-section bg-orange-50 common-right common-left">
         <div className="container mx-auto px-4">
           <div
             ref={titleRef}
             className={`transition-all duration-700 ${titleVisible ? 'animate-fade-in-down' : 'opacity-0'}`}
           >
-            <h2 className="smst-section-title">{t('about_title')}</h2>
+            <h2 className="smst-section-title bg-arrow">{t('about_title')}</h2>
           </div>
           
           <div

@@ -1,8 +1,10 @@
 import Layout from '@/components/Layout';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import Carousel from '@/components/Carousel';
+import { useGlobalConfig } from '@/plugins/globalConfig';
 
 export default function HomePage() {
+	  const { $base } = useGlobalConfig();
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
   const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation();
 
@@ -22,7 +24,7 @@ export default function HomePage() {
 	              titleVisible ? 'animate-fade-in-up' : 'opacity-0'
 	            }`}
 	          >
-	            <h2 className="smst-section-title">Welcome to Sai Master Seva Trust</h2>
+	            <h2 className="smst-section-title bg-arrow">Welcome to Sai Master Seva Trust</h2>
 	            <p className="smst-section-subtitle">Dedicated to Spiritual Growth and Community Service</p>
 	          </div>
 	
@@ -41,15 +43,41 @@ export default function HomePage() {
 	              "What do you think of Subbaramaiah? He is a great Mahatma (Sadguru) who has served two great Mahatmas" as praised by Sri Ekkirala Bharadwaja Master. The same 'Pesala Subbaramaiah' fondly called as 'SIR' by His devotees is the founder of 'Sai Master Seva Trust'. Even after His MahaSamadhi in 2017, the manner in which HE runs this Trust and protects His devotees by guiding them in the Righteous path is amazing. To know more about His Life, Preachings and the Divine Experiences bestowed upon His devotees, please check the 'Books and Downloads' section...
 	            </p>
 	
-	            <p className="m-4 font-bold">
-	              Sai Swamy Master
-	              <br />
-	              శ్రీ శిరిడీ సాయిబాబా
-	              <br />
-	              శ్రీ వెంకయ్య స్వామి
-	              <br />
-	              శ్రీ ఎక్కిరాల భరద్వాజ
-	            </p>
+{/* <div className="flex flex-wrap justify-center gap-6 m-6">
+
+
+  <div className="w-64 bg-white rounded-2xl shadow-md border-2 border-transparent 
+              transition-all duration-300 cursor-pointer glow-hover">
+				<img src={`${$base}images/baba.jpg`} alt="SMST Logo" className="w-full h-40 object-cover rounded-t-2xl" />
+   
+    <div className="p-4 text-center">
+      <h3 className="font-bold text-lg text-gray-800">Sai Swamy Master</h3>
+      <p className="text-md text-gray-600 mt-1">శ్రీ శిరిడీ సాయిబాబా</p>
+    </div>
+  </div>
+
+
+  <div className="w-64 bg-white rounded-2xl shadow-md border-2 border-transparent 
+              transition-all duration-300 cursor-pointer glow-hover">
+    <img src={`${$base}images/venkayaiswai.jpg`} alt="SMST Logo" className="w-full h-40 object-cover rounded-t-2xl" />
+    <div className="p-4 text-center">
+      <h3 className="font-bold text-lg text-gray-800">Sri Venkayya Swamy</h3>
+      <p className="text-md text-gray-600 mt-1">శ్రీ వెంకయ్య స్వామి</p>
+    </div>
+  </div>
+
+
+  <div className="w-64 bg-white rounded-2xl shadow-md border-2 border-transparent 
+              transition-all duration-300 cursor-pointer glow-hover">
+   <img src={`${$base}images/bradvaja.png`} alt="SMST Logo" className="w-full h-40 object-cover rounded-t-2xl" />
+    <div className="p-4 text-center">
+      <h3 className="font-bold text-lg text-gray-800">Sri Akkirala Bharadwaja</h3>
+      <p className="text-md text-gray-600 mt-1">శ్రీ ఎక్కిరాల భరద్వాజ</p>
+    </div>
+  </div>
+
+</div> */}
+
 	
 	            <p className="m-4">
 	              దీనజనోద్ధరణ కొరకు, భక్త సంరక్షణ కొరకు, ముముక్షువులకు మార్గం చూపడానికి ఆ పరమాత్మ మన మధ్య సద్గురువుగా అవతరిస్తారు. అట్టి సద్గురువులలో శాస్త్రాలలో నిర్దేశించబడిన సర్వవ్యాపకత్వం, సర్వసమర్ధత, సర్వజ్ఞత్వాలు సంపూర్ణముగా ప్రకటమవుతాయి. అలా ప్రకటమయినవారే గొలగమూడిలో వెలసిన అవధూత శ్రీ వెంకయ్యస్వామివారు.

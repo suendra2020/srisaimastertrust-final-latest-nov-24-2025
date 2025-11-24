@@ -20,7 +20,7 @@ export default function SatsangPage() {
       {/* Satsang Section */}
       <section id="satsang" className="smst-section bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="smst-section-title">{t('satsang_title')}</h2>
+          <h2 className="smst-section-title bg-arrow">{t('satsang_title')}</h2>
           <p className="smst-section-subtitle">{t('satsang_subtitle')}</p>
 
           <p className="text-center text-gray-700 mb-12 max-w-3xl mx-auto">

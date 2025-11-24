@@ -19,7 +19,7 @@ export default function BooksPage() {
       {/* Books & Downloads Section */}
       <section id="books" className="smst-section bg-orange-50">
         <div className="container mx-auto px-4">
-          <h2 className="smst-section-title">{t('books_title')}</h2>
+          <h2 className="smst-section-title bg-arrow">{t('books_title')}</h2>
           <p className="smst-section-subtitle">{t('books_subtitle')}</p>
 
           {/* Stats */}
