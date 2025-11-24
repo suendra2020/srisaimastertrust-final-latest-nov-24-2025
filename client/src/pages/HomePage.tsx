@@ -14,7 +14,7 @@ export default function HomePage() {
       </section>
 
       {/* Original Content Section */}
-      <section className="smst-section  homepage-text relative z-10">
+      <section className="smst-section  homepage-text relative z-10 bg-orange-50">
 	        <div className="container mx-auto px-4">
 	          <div
 	            ref={titleRef}

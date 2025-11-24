@@ -8,9 +8,7 @@ export default function Footer() {
     <footer className="smst-footer">
       <div className="container mx-auto px-4">
         {/* Audio Player Section - Added as per user request */}
-        <div className="flex justify-center mb-8">
-          <AudioPlayer />
-        </div>
+        
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
@@ -57,11 +55,14 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-700 pt-8">
+        <div className="border-t border-gray-700 pt-2">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
               {t('footer_copyright')}
             </p>
+            <div className="flex justify-center m-1">
+          <AudioPlayer />
+        </div>
             <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <span className="sr-only">{t('footer_facebook')}</span>

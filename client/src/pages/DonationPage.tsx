@@ -141,7 +141,7 @@ export default function DonationPage() {
               <div className="bg-white rounded-2xl shadow-lg p-8 border border-orange-200">
                 <h2 className="text-2xl font-bold mb-6 text-gray-800">Make a Donation</h2>
 
-           <img src="./canara.png" alt="" />
+           <img src="images/canara.png" alt="" />
               </div>
             )}
 

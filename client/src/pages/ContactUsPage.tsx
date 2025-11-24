@@ -6,7 +6,7 @@ export default function ContactUsPage() {
   const { t } = useLanguage();
   return (
     <Layout>
-      <section id="contact" className="smst-section bg-white">
+      <section id="contact" className="smst-section bg-orange-50">
         <div className="container mx-auto px-4">
           <h2 className="smst-section-title">{t('contact_title')}</h2>
           <p className="smst-section-subtitle">{t('contact_subtitle')}</p>

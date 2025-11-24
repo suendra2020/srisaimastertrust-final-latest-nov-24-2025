@@ -11,7 +11,7 @@ export default function AboutUsPage() {
   return (
     <Layout>
       {/* Welcome Section (About Us) */}
-      <section id="about" className="smst-section bg-white">
+      <section id="about" className="smst-section bg-orange-50">
         <div className="container mx-auto px-4">
           <div
             ref={titleRef}

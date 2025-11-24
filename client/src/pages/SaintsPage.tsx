@@ -9,84 +9,84 @@ const saintsData = [
     name_te: 'అక్కల్‌కోట స్వామి',
     desc_en: 'A holy saint of the Dattatreya tradition known for his ascetic power and guidance.',
     desc_te: 'దత్తాత్రేయ సంప్రదాయానికి చెందిన ఒక పవిత్ర సన్యాసి, తన తపస్సు శక్తి మరియు మార్గదర్శకత్వానికి ప్రసిద్ధి చెందారు.',
-    image: '/saints_images/akkalkota_swami.jpg'
+    image: 'saints_images/akkalkota_swami.jpg'
   },
   {
     name_en: 'Sripada Sri Vallabha Swami',
     name_te: 'శ్రీపాద శ్రీ వల్లభ స్వామి',
     desc_en: 'The divine incarnation regarded as the first avatar of Lord Dattatreya.',
     desc_te: 'దత్తాత్రేయ ప్రభువు యొక్క మొదటి అవతారంగా పరిగణించబడే దైవిక అవతారం.',
-    image: '/saints_images/sripada_vallabha.jpg'
+    image: 'saints_images/sripada_vallabha.jpg'
   },
   {
     name_en: 'Narasimha Saraswathi Swami',
     name_te: 'నరసింహ సరస్వతి స్వామి',
     desc_en: 'A revered master known for spiritual wisdom and divine grace.',
     desc_te: 'ఆధ్యాత్మిక జ్ఞానం మరియు దైవిక అనుగ్రహానికి ప్రసిద్ధి చెందిన గౌరవనీయ గురువు.',
-    image: '/saints_images/narasimha_saraswathi.jpg'
+    image: 'saints_images/narasimha_saraswathi.jpg'
   },
   {
     name_en: 'Lord Dattatreya',
     name_te: 'దత్తాత్రేయ ప్రభువు',
     desc_en: 'The divine trinity incarnation, revered as the supreme guru in the Dattatreya tradition.',
     desc_te: 'దత్తాత్రేయ సంప్రదాయంలో సర్వోచ్చ గురువుగా గౌరవించబడిన దైవిక త్రిమూర్తి అవతారం.',
-    image: '/saints_images/dattatreya.jpg'
+    image: 'saints_images/dattatreya.jpg'
   },
   {
     name_en: 'Sant Eknath',
     name_te: 'సంత ఏకనాథ',
     desc_en: 'A famous yogi and renounced saint of Maharashtra, known for his spiritual wisdom.',
     desc_te: 'మహారాష్ట్ర యొక్క ప్రసిద్ధ యోగి మరియు సంన్యాసి, తన ఆధ్యాత్మిక జ్ఞానానికి ప్రసిద్ధి చెందారు.',
-    image: '/saints_images/eknath.jpg'
+    image: 'saints_images/eknath.jpg'
   },
   {
     name_en: 'Shirdi Sai Baba',
     name_te: 'శిర్డీ సాయిబాబా',
     desc_en: 'One of the foremost saints of modern India, revered as the Fifth Avatar of Lord Dattatreya.',
     desc_te: 'ఆధునిక భారతదేశం యొక్క ప్రముఖ సన్యాసులలో ఒకరు, దత్తాత్రేయ ప్రభువు యొక్క ఐదవ అవతారంగా గౌరవించబడారు.',
-    image: '/saints_images/sai_baba.jpg'
+    image: 'saints_images/sai_baba.jpg'
   },
   {
     name_en: 'Tajuddin Baba of Nagpur',
     name_te: 'నాగపూర్ తాజుద్దీన్ బాబా',
     desc_en: 'A Sufi saint known for his love and compassion towards all beings.',
     desc_te: 'తన ప్రేమ మరియు కరుణకు ప్రసిద్ధి చెందిన సూఫీ సన్యాసి.',
-    image: '/saints_images/vasudevanand_saraswati.jpg'
+    image: 'saints_images/vasudevanand_saraswati.jpg'
   },
   {
     name_en: 'Gajanan Maharaj of Shegaon',
     name_te: 'శేగాం గజానన్ మహారాజ్',
     desc_en: 'A great saint known for his miraculous spiritual guidance and divine grace.',
     desc_te: 'తన అద్భుతమైన ఆధ్యాత్మిక మార్గదర్శకత్వానికి ప్రసిద్ధి చెందిన గొప్ప సన్యాసి.',
-    image: '/saints_images/narasimha_saraswathi.jpg'
+    image: 'saints_images/narasimha_saraswathi.jpg'
   },
   {
     name_en: 'Narayana Maharaj of Kedgaon',
     name_te: 'కేడ్‌గాం నారాయణ మహారాజ్',
     desc_en: 'A spiritual master revered for his teachings and divine wisdom in the Dattatreya tradition.',
     desc_te: 'దత్తాత్రేయ సంప్రదాయంలో తన బోధనలు మరియు దైవిక జ్ఞానానికి గౌరవించబడిన ఆధ్యాత్మిక గురువు.',
-    image: '/saints_images/vasudevanand_saraswati.jpg'
+    image: 'saints_images/vasudevanand_saraswati.jpg'
   },
   {
     name_en: 'Dhuniwala Dada',
     name_te: 'ధూనివాల దాదా',
     desc_en: 'A saint known for his ascetic life, wisdom and divine grace.',
     desc_te: 'తన తపస్సు జీవితం, జ్ఞానం మరియు దైవిక అనుగ్రహానికి ప్రసిద్ధి చెందిన సన్యాసి.',
-    image: '/saints_images/akkalkota_swami.jpg'
+    image: 'saints_images/akkalkota_swami.jpg'
   },
   {
     name_en: 'Manikya Prabhu',
     name_te: 'మణిక్య ప్రభువు',
     desc_en: 'A great master known for his divine teachings and spiritual grace.',
     desc_te: 'తన దైవిక బోధనలు మరియు ఆధ్యాత్మిక అనుగ్రహానికి ప్రసిద్ధి చెందిన గొప్ప గురువు.',
-    image: '/saints_images/sripada_vallabha.jpg'
+    image: 'saints_images/sripada_vallabha.jpg'
   },
   {
     name_en: 'Ramakrishna Paramahamsa',
     name_te: 'రామకృష్ణ పరమహంస',
     desc_en: 'A great saint of Bengal known for his spiritual realization and universal teachings.',
     desc_te: 'తన ఆధ్యాత్మిక సాక్షాత్కారానికి ప్రసిద్ధి చెందిన బెంగాల్ గొప్ప సన్యాసి.',
-    image: '/saints_images/sai_baba.jpg'
+    image: 'saints_images/sai_baba.jpg'
   }
 ];
 

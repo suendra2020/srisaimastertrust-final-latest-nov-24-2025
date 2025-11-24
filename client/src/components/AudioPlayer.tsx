@@ -90,7 +90,7 @@ export default function AudioPlayer() {
   };
 
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-white mt-4">
+    <div className="bg-gray-800 p-1 rounded-lg  text-white audioplayer-btn">
       {/* Audio Element */}
       <audio
         ref={audioRef}
@@ -127,7 +127,7 @@ export default function AudioPlayer() {
         </div>
 
         {/* Volume Control */}
-        <div className="flex items-center space-x-2 w-24">
+        <div className="flex items-center space-x-2 w-24 hidden">
           <Volume2 className="w-5 h-5 opacity-75" />
           <input
             type="range"
