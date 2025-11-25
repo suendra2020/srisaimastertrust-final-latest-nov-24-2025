@@ -18,7 +18,7 @@ export default function SatsangPage() {
   return (
     <Layout>
       {/* Satsang Section */}
-      <section id="satsang" className="smst-section bg-white">
+      <section id="satsang" className="smst-section">
         <div className="container mx-auto px-4">
           <h2 className="smst-section-title bg-arrow">{t('satsang_title')}</h2>
           <p className="smst-section-subtitle">{t('satsang_subtitle')}</p>

@@ -100,7 +100,7 @@ export default function SaintsPage() {
   return (
     <Layout>
       {/* Saints & Living Section */}
-      <section id="saints" className="smst-section bg-orange-50">
+      <section id="saints" className="smst-section">
         <div className="container mx-auto px-4">
           <h2 className="smst-section-title bg-arrow">{t('saints_title')}</h2>
           <p className="smst-section-subtitle italic">
